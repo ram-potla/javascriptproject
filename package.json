@@ -1,0 +1,22 @@
+{
+  "name": "javascriptproject",
+  "version": "1.0.0",
+  "description": "pratice javascript",
+  "main": "mapExamples.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramp/javascriptproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramp/javascriptproject/issues"
+  },
+  "homepage": "https://github.com/ramp/javascriptproject#readme",
+  "dependencies": {
+    "lodash": "^4.17.2"
+  }
+}
