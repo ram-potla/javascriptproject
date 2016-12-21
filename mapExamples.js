@@ -1,3 +1,4 @@
+'use strict';
 var _ = require('lodash');
 
 var aNames = ['melbourne','sydney','brisbane'];
@@ -40,11 +41,11 @@ var applicationz = {
           "novis":23434
         }],
         "customer" : [
-          { "crn" : 0998,
+          { "crn" : 998,
             "name":"dfslkfd"
 
           },
-          {"crn" :0089,
+          {"crn" :89,
             "name":"dfjdklf"
 
           }],
@@ -56,8 +57,8 @@ var applicationz = {
 
 // console.log(_.flatten(_.map(application,'customer'))) ;
 
-console.log(_.filter(applicationz,{'crn':089, 'name':'dfjdklf'}));
-''
+console.log(_.filter(applicationz,{'crn':89, 'name':'dfjdklf'}));
+
 // console.log(_.filter(users,{'user' :'barney', 'age':36}));
 
 // console.log(_.map(users,{'user':'barney','age':36})) ;

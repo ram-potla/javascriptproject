@@ -18,5 +18,8 @@
   "homepage": "https://github.com/ramp/javascriptproject#readme",
   "dependencies": {
     "lodash": "^4.17.2"
+  },
+  "devDependencies": {
+    "q": "^1.4.1"
   }
 }
